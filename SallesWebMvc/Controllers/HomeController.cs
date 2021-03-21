@@ -18,6 +18,8 @@ namespace SallesWebMvc.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            ViewData["Aluno"] = "Jamil Neto";
+            ViewData["Email"] = "jamilzabneto@hotmail.com";
 
             return View();
         }
